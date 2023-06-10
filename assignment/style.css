@@ -9,3 +9,18 @@
 /* Put a border around your image */
 
 /* Change the font-family of your list */
+html,
+body{
+    margin: 0;
+    padding:0;
+}
+
+#hello{
+    color: green;
+}
+#fun{
+    color: purple;
+}
+.container{
+    background-color: aqua;
+}

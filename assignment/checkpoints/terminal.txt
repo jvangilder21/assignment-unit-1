@@ -7,16 +7,16 @@ cd
 # 3 - What is the command for going "up" a folder (to a parent directory)?
 cd ..
 # 4 - What is a quick way to create a new folder?
-mkdir
+mkdir folderName
 # 5 - What output would you expect when you run the command 'ls' in an empty folder? What about a folder containing files?
-If we run ls in an empty folder we get the error -bash: cd: folder name: no such file or directory. Running ls in a folder that contains files will list on the files that are in the folder.
+If we run ls in an empty folder, we will not get an output - just a new line to run a command. Running ls in a folder that contains files will list all the files that are in the folder.
 # 6 - What is a quick way to create a new file?
-
+touch fileName.fileType
 # 7 - Run 'git --version' in your terminal. What is the output?
 2.33.0
 # 8 - Why would you run the command 'git status'?
-we would run git status to see what we have modified in our code in VS Code.
+we would run git status to see what we have modified in our code that we need to commit and save in the future.
 # 9 - What does the command 'git add .' do?
-we run git add . to add all the files from VS code to terminal to save what we have modified.
+we run git add . to add all the modified files from VS code to terminal so that we have it ready to save when we commit.
 # 10 - What is the command to push your committed changes to your repo on GitHub?
 The command to push our committed changes to GitHub is: git push origin main

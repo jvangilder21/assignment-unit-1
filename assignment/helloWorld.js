@@ -1,3 +1,5 @@
+console.log("hello world");
+
 /*
 //this was work during class 
 console.log("hello");

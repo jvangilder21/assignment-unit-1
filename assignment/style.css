@@ -1,20 +1,72 @@
-/* Give your page a fun background color */
+/* Give your page a fun background color */ /*done*/
 
-/* Make the header and footer a different color from the background */
+/* Make the header and footer a different color from the background */ /*done*/
 
-/* Align the h1 containing your name in the center of the header*/
+/* Align the h1 containing your name in the center of the header*/ /*done*/
 
-/* Make your p tag a different color and italic */
+/* Make your p tag a different color and italic */ /*done*/
 
-/* Put a border around your image */
+/* Put a border around your image */ /*done*/
 
-/* Change the font-family of your list */
+/* Change the font-family of your list */ /*done*/
+
+
+body{
+    background-color: #ffedc9;
+}
+header{
+    color: #3123b8;
+}
+footer{
+    color: #3123b8;
+}
+h1{
+    text-align: center;
+    font-family: cursive, Lucida Grande, Lucida Sans Unicode, Verdana, sans-serif;
+}
+h2{
+    color: slateblue;
+    font-family: cursive, 'Times New Roman', serif;
+}
+.list{
+    font-family: 'Trebuchet MS', Tahoma, sans-serif;
+    color: slateblue;
+    line-height: 30px;
+}
+p{
+    color: dodgerblue;
+    font-family: Lucida Grande, Tahoma, sans-serif;
+}
+.disney{
+    border-radius: 10px;;
+    border-color: rgba(30,144,255,.7);
+    border-width: 5px;
+    border-style: solid;
+    position: absolute;
+    left: 50%;
+    width: 350px;
+    height: 450px;
+    margin-left: 20%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+h3{
+    color: dodgerblue;
+    font-family: cursive, Lucida Grande, Tahoma, sans-serif;
+}
+.leftSide{
+    margin-left: 10%;
+}
+
+
+/*
+//What we did in class
 html,
 body{
     margin: 0;
     padding:0;
 }
-
+ffccc2
+ff801a
 #hello{
     color: green;
 }
@@ -24,3 +76,4 @@ body{
 .container{
     background-color: aqua;
 }
+*/

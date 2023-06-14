@@ -42,6 +42,28 @@ p{
     border-color: rgba(30,144,255,.7);
     border-width: 5px;
     border-style: solid;
+    float: right;
+    left: 50%;
+    width: 350px;
+    height: 450px;
+    margin: 40px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+@media (max-width: 1000px){ 
+    .disney {
+        float: right;
+        left: 50%;
+        width: 350px;
+        height: 450px;
+        margin: 10px;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    }
+}
+/*.disney{
+    border-radius: 10px;;
+    border-color: rgba(30,144,255,.7);
+    border-width: 5px;
+    border-style: solid;
     position: absolute;
     left: 50%;
     width: 350px;
@@ -49,6 +71,8 @@ p{
     margin-left: 20%;
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
+*/
+/* Had the code above originally and then was concerned about different screen sizes. What is the best way to modify where things go?*/
 h3{
     color: dodgerblue;
     font-family: cursive, Lucida Grande, Tahoma, sans-serif;
